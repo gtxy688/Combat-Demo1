@@ -82,11 +82,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9e766d58315cc4eb912626fcb65fdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Health>k__BackingField: 25
+  rotationSpeed: 550
   attacks:
   - {fileID: 11400000, guid: e430944b6c9894a44bd8f8472ecef8d6, type: 2}
   - {fileID: 11400000, guid: e30c36b75f98beb4d88f7e9561befe39, type: 2}
+  longRangeAttacks: []
   sword: {fileID: 8789518755454625768}
-  rotationSpeed: 550
 --- !u!143 &2292503054150341516
 CharacterController:
   m_ObjectHideFlags: 0
@@ -126,6 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Fov>k__BackingField: 180
+  <AlertNearbyEnemiesInRange>k__BackingField: 20
+  <Target>k__BackingField: {fileID: 0}
 --- !u!195 &3184700795390693369
 NavMeshAgent:
   m_ObjectHideFlags: 0

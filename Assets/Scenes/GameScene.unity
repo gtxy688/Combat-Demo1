@@ -348,16 +348,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyMan (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 118682041744273864, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4648634815746134046, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6739093991398018151, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -425,16 +415,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyMan (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 118682041744273864, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4648634815746134046, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6739093991398018151, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
         type: 3}
@@ -642,20 +622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyMan (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 118682041744273864, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4648634815746134046, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6739093991398018151, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.21
       objectReference: {fileID: 0}
     - target: {fileID: 6739093991398018151, guid: 9c75b3a7184ac3a4784c1b7f6c4aa2f0,
         type: 3}
@@ -821,17 +791,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1287977842263073363, guid: 2375b377f9b000045b3253a288927fed,
-        type: 3}
-      propertyPath: longRangeAttacks.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1287977842263073363, guid: 2375b377f9b000045b3253a288927fed,
-        type: 3}
-      propertyPath: longRangeAttacks.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: aba79a4dcfbf97c448555b07352341be,
-        type: 2}
     - target: {fileID: 1913932107236681484, guid: 2375b377f9b000045b3253a288927fed,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -122,10 +122,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed9e766d58315cc4eb912626fcb65fdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Health>k__BackingField: 25
+  rotationSpeed: 550
   attacks:
   - {fileID: 11400000, guid: e430944b6c9894a44bd8f8472ecef8d6, type: 2}
   - {fileID: 11400000, guid: e30c36b75f98beb4d88f7e9561befe39, type: 2}
   - {fileID: 11400000, guid: 1ac3006244ec81c4fb4f62c14a1b4800, type: 2}
+  longRangeAttacks:
+  - {fileID: 11400000, guid: aba79a4dcfbf97c448555b07352341be, type: 2}
   sword: {fileID: 8001222330184564880}
 --- !u!1 &8001222330184564880
 GameObject:
