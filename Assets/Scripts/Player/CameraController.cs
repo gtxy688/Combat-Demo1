@@ -26,8 +26,8 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        //Cursor.visible=false;
-        //Cursor.lockState=CursorLockMode.Locked;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         focusPosition = followTarget.position + new Vector3(framingOffset.x, framingOffset.y);
         
     }

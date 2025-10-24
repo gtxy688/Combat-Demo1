@@ -18,6 +18,6 @@ public class DeadState : State<EnemyController>
         owner.NavAgent.enabled = false;
         owner.CharacterController.enabled = false;
         //meeleFighter.PlayDeathAnimation(meeleFighter);
-       
+        Destroy(gameObject, 4f);
     }
 }

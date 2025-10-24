@@ -214,7 +214,7 @@ public class MeeleFighter : MonoBehaviour
                 else
                 {
                     PlayDeathAnimation(attacker);
-                    Destroy(attacker.gameObject, 4f);
+                    GetComponent<EnemyController>().ChangeState(EnemyStates.Dead);
                 }
             }
             else
