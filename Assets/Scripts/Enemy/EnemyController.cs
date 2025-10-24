@@ -119,7 +119,7 @@ public class EnemyController : MonoBehaviour
             }
         }
         return null;
-    }
+    } 
 
     public void AlertNearbyEnemies()
     {
